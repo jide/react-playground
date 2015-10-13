@@ -1,5 +1,28 @@
-# react-playground-package package
+## react-playground-package package
 
-A short description of your package.
+### Install
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+If you want to customize the webpack config, create a playground.config.js file
+at the root of your project and export a function like this :
+
+```js
+module.exports = function(config, webpack) {
+  // Alter config, inject webpack plugins...
+  return config;
+}
+```
+
+### Usage
+
+In your project, any folder containing a .playground.js file will then be
+possible to live preview.
+Toggle the pane using "Atom React Playground: Toggle"
+command.
+A .playground.js file might look like this :
+
+```js
+import React from 'react';
+import MyComponent from './index';
+
+React.render(<MyComponent some='prop'/>, document.getElementById('root'));
+```
