@@ -26,3 +26,12 @@ import MyComponent from './index';
 
 React.render(<MyComponent some='prop'/>, document.getElementById('root'));
 ```
+
+### Options
+
+You can change the webpack port in the package options. By default the port is
+8612.
+
+### Browser
+
+And if you want to look deeper, open a browser at http://localhost:8612.
