@@ -1,4 +1,8 @@
-## react-playground-package package
+## react-playground-package
+
+ATOM plugin to preview and edit your JSX right from your favorite editor.
+
+[gif]
 
 ### Install
 
