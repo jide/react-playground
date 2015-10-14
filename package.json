@@ -1,10 +1,10 @@
 {
   "name": "react-playground",
   "main": "./lib/react-playground",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Tweak React components in real time",
   "keywords": [],
-  "repository": "https://github.com/atom/react-playground",
+  "repository": "https://github.com/jide/react-playground",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -27,6 +27,7 @@
     "react-transform-catch-errors": "^1.0.0",
     "react-transform-hmr": "^1.0.0",
     "redbox-react": "^1.0.1",
+    "serve-static": "1.10.0",
     "style-loader": "^0.12.4",
     "webpack": "^1.9.6",
     "webpack-dev-middleware": "^1.2.0",
